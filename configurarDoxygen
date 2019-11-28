@@ -1,0 +1,29 @@
+crear archivo de configuración 
+doxygen -g
+
+Nombre del proyecto Ln35
+PROJECT_NAME
+
+Version del proyecto Ln41
+PROJECT_NUMBER
+
+Salida de documentación Ln61
+OUTPUT_DIRECTORY = "doc"
+
+Lenguaje de salida Ln94
+OUTPUT_LANGUAGE = "spanish"
+
+Ficheros de entrada, normalmente include Ln793
+INPUT 
+
+Genera HTML Ln1125
+GENERATE_HTML
+
+Genera Latex Ln1669
+GENERATE_LATEX
+
+Salida del html Ln1133
+HTML_OUTPUT
+
+Extraer datos privados (SI) Ln444
+EXTRACT_PRIVATE = YES
