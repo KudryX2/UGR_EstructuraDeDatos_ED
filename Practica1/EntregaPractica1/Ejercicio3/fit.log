@@ -1,0 +1,96 @@
+
+
+*******************************************************************************
+Mon Oct  1 20:54:15 2018
+
+
+FIT:    data read from "tiempos.dat"
+        format = z
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   x            
+   0 9.0450499988e+10   0.00e+00  0.00e+00    1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct  1 20:55:15 2018
+
+
+FIT:    data read from "tiempos.dat"
+        format = z
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   x            
+   0 2.6345968888e+04   0.00e+00  0.00e+00    1.001000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Mon Oct  1 20:56:09 2018
+
+
+FIT:    data read from "tiempos.dat"
+        format = z
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = log2(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Oct  1 20:57:27 2018
+
+
+FIT:    data read from "tiempos.dat"
+        format = z
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   x            
+   0 9.0450499988e+10   0.00e+00  0.00e+00    1.002001e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Tue Oct  2 00:36:34 2018
+
+
+FIT:    data read from "tiempos.dat"
+        format = z
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 9.0450499988e+10   0.00e+00  1.74e+04    1.000000e+00
+   4 4.3155802997e-10  -2.86e-02  1.74e+00    6.586918e-11
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.31558e-10
+rel. change during last iteration : -2.85578e-07
+
+degrees of freedom    (FIT_NDF)                        : 299
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.20139e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.44334e-12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 6.58692e-11      +/- 3.995e-12    (6.065%)
